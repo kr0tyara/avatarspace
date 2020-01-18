@@ -1,0 +1,312 @@
+﻿body {
+	background: #F3F3F3;
+}
+content {
+	width: 90%;
+	margin-left: 5%;
+	
+	display: block;
+	text-align: -webkit-center;
+}
+
+.game, .login {
+	background: #FFFFFF;
+	border-radius: 5px;
+	border: 2px solid #DCDCDC;
+}
+.up {
+	position: relative;
+	width: 1000px;
+	height: 50px;
+	margin-bottom: -50px;
+	text-align: -webkit-left;
+	z-index: 1;
+	display: none;
+}
+.location, .editor {
+	background: rgba(255, 255, 255, .5);
+	border-bottom-right-radius: 5px;
+	text-align: -webkit-center;
+	padding: 2px;
+	
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+	
+	display: inline-block;
+	
+	height: 50px;
+	position: absolute;
+}
+.editor {
+	margin-left: 260px;
+	width: 50px;
+	cursor: pointer;
+}
+.editor:hover {
+	background: rgba(255, 255, 255, .7);
+}
+.location {
+	width: 250px;
+	border-top-left-radius: 5px;
+}
+.panel {
+	position: relative;
+	display: none;
+	background: rgba(255, 255, 255, .5);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	width: 250px;
+	height: 50px;
+	margin-top: -50px;
+	z-index: 1;
+}
+.panel input {
+	border: none;
+	height: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: rgba(0, 0, 0, .7);
+}
+.panel input[type='submit'], input[type='button'] {
+	background: rgba(255, 255, 255, .5);
+}
+.panel input:focus {
+	outline: none;
+}
+.login {
+	width: 1000px;
+	height: 650px;
+}
+.login input {
+	display: block;
+	margin: 5px;
+}
+.login input[type='text'], .login input[type='password'] {
+	width: 100%;
+}
+.login input[type='submit'] {
+	float: right;
+	margin-right: -5px;
+}
+.login form {
+	width: 250px;
+	height: 250px;
+	margin-top: 250px;
+}
+.login form p {
+	font-size: 13px;
+	color: #666666;
+}
+.edit {
+	background: rgba(0, 0, 0, .5);
+}
+.edit, .draw {
+	position: relative;
+	z-index: 3;
+	width: 1000px;
+	height: 650px;
+	margin-bottom: -652px;
+	margin-left: 2px;
+	
+	color: #FFFFFF;
+	text-align: -webkit-left;
+	
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+	
+	display: none;
+	border-radius: 3px;
+}
+.left {
+	vertical-align: top;
+	display: inline-block;
+	padding: 25px;
+	margin-left: 100px;
+	text-align: -webkit-center;
+	width: 150px;
+	background: rgba(255, 255, 255, .5);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.right {
+	vertical-align: top;
+	display: inline-block;
+	padding: 25px;
+	margin-left: 100px;
+	text-align: -webkit-center;
+	width: 350px;
+	background: rgba(255, 255, 255, .5);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.close {
+	vertical-align: top;
+	display: inline-block;
+	text-align: -webkit-center;
+	margin-left: 50px;
+	width: 50px;
+	background: rgba(255, 255, 255, .5);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	cursor: pointer;
+}
+.close:hover {
+	background: rgba(255, 255, 255, .7);
+}
+.page {
+	display: none;
+}
+.edit h2, .edit h3, .draw h2 {
+	font-family: 'Russo One', sans-serif;
+}
+.avatar {
+	background: url(/img/char.png?v4) no-repeat;
+	width: 50px;
+	height: 85px;
+	margin: 5px;
+	display: inline-block;
+	opacity: .4;
+}
+.profile {
+	cursor: pointer;
+}
+.selected, #my {
+	opacity: 1;
+	cursor: default;
+}
+.vorobey {
+	background-position: 0 0px;
+}
+.sandbox {
+	background-position: -50 0px;
+}
+.laboratory {
+	background-position: -100 0px;
+}
+.lobby {
+	background-position: -150 0px;
+}
+.paper {
+	background-position: -200 0px;
+}
+.custom {
+	background-position: -250 0px;
+}
+.new {
+	background-position: -300 0px;
+	cursor: pointer;
+}
+.mole {
+	background-position: -350 0px;
+}
+.lindgren {
+	background-position: -400 0px;
+}
+.simon {
+	background-position: -450 0px;
+}
+.fedor {
+	background-position: -500 0px;
+}
+.bunny {
+	background-position: -550 0px;
+}
+
+.part {
+	background-color: #FFFFFF;
+	border: 3px solid #000000;
+	display: inline-block;
+	margin: 5px;
+}
+.parts {
+	background: url(/img/parts.png?v4) no-repeat;
+	width: 50px;
+	height: 85px;
+	display: inline-block;
+}
+
+.left_eyes .anime {
+	background-position: 0 0px;
+}
+.left_eyes .closed {
+	background-position: -50px 0px;
+}
+.left_eyes .toy {
+	background-position: -100px 0px;
+}
+.left_eyes .lenny {
+	background-position: -150px 0px;
+}
+.left_eyes .no {
+	background-position: -200px 0px;
+}
+
+.right_eyes .anime {
+	background-position: 0 -85px;
+}
+.right_eyes .closed {
+	background-position: -50px -85px;
+}
+.right_eyes .toy {
+	background-position: -100px -85px;
+}
+.right_eyes .lenny {
+	background-position: -150px -85px;
+}
+.right_eyes .no {
+	background-position: -200px -85px;
+}
+
+.icon {
+	background: url(/img/icons.png) no-repeat;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+}
+.icon .loc {
+	background-position: -50 0px;
+}
+.icon .profile {
+	background-position: 0 0px;
+}
+.drawing {
+	background-color: #FFFFFF;
+	border-radius: 5px;
+}
+.n2 p, .n2 input{
+	display: inline-block;
+}
+.n2 p {
+	font-size: 15px;
+}
+
+input[type='color'] {
+    border-radius: 100%;
+    height: 15px;
+    width: 15px;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+input[type='color']::-webkit-color-swatch-wrapper {
+    padding: 2;	
+}
+input[type='color']::-webkit-color-swatch {
+    border: none;
+    border-radius: 100%;
+}
+
+p, h2, label, a {
+	font-family: Verdana;
+}
+a {
+	cursor: pointer;
+}
+img {
+	display: inline-block;
+}
+input[type='checkbox'], label[for='check'] {
+	cursor: pointer;
+}
