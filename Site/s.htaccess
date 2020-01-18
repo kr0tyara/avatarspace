@@ -1,0 +1,5 @@
+﻿DirectoryIndex Game.php
+Options All -Indexes
+php_value output_buffering 1
+php_value session.gc_maxlifetime 31536000
+php_value session.cookie_lifetime 31536000
